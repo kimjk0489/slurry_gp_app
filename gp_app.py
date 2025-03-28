@@ -14,7 +14,7 @@ st.set_page_config(page_title="Carbon Black Optimization", layout="wide")
 st.title("🔬 Carbon Black 조성 최적화 (GP + Bayesian Optimization)")
 
 # 1. 데이터 불러오기
-df = pd.read_csv("C:/Dev/PythonProject/slurry_data.csv")  # 경로 확인
+df = pd.read_csv("slurry_data.csv")
 
 # 2. 입력(X), 출력(Y) 분리
 x_cols = ["carbon_black_g"]
